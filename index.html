@@ -49,5 +49,64 @@
 			</nav>
 		</div>
 	</header> <!-- Header -->
+
+	<div class="content product-info" role="main">
+		<selection class="product-main">
+			<header>
+				<h1 class="product-name">Super Ffly T-shirt</h1>
+				<div class="product-overview">
+					<strong class="price">$23</strong>
+					<ol>
+						<li class="on">&#9733;</li>
+						<li class="on">&#9733;</li>
+						<li class="on">&#9733;</li>
+						<li class="on">&#9733;</li>
+						<li>&#9734;</li>
+					</ol>
+					<a href="#reviews" class="review-count">8 Reviews</a>
+				</div>
+			</header>
+			<div id="product-img" class="product-img">
+				<figure id="img-container" class="img-container">
+					<div class="img-list" id="loading">
+						<ul>
+							<li data-imgsrc="images/product_img_1.jpg" style="display: list-item;">
+								<img src="images/product_img_1.jpg"></li>
+							<li data-imgsrc="images/product_img_2.jpg" style="display: none;"></li>
+							<li data-imgsrc="images/product_img_3.png" style="display: none;"></li>
+						</ul>
+					</div>
+				</figure>
+				<nav>
+					<ul>
+						<li class="active"><a href="images/product_img_1.jpg"><img src="images/product_img_1_thumb.jpg" alt="Super Ffly Men's Shirt"></a></li>
+						<li><a href="images/product_img_2.jpg"><img src="images/product_img_2_thumb.jpg" alt="Super Ffly Women's Shirt"></a></li>
+						<li><a href="images/product_img_3.png"><img src="images/product_img_3_thumb.jpg" alt="Ffly Logo"></a></li>
+					</ul>
+				</nav>
+			</div><!-- .product-img -->
+			<form action="#" method="post" id="product-form" class="product-form">
+				<fieldset>
+					<legend>Add to Cart</legend>
+					<div class="field qty-field">
+						<label for="qty">Qty</label>
+						<input type="number" id="qty" class="qty" name="qty" pattern="[0-9]*" value="1" min="1" max="999">
+					</div>
+					<div class="fieldsize-field">
+						<label for="size">Size</label>
+						<select name="size" id="size">
+							<option value="S">S</option>
+							<option value="S">M</option>
+							<option value="S">L</option>
+							<option value="S">XL</option>
+						</select>
+					</div>
+					<div class="submit-form">
+						<input type="submit" value="Add to Cart" class="btn">
+					</div>
+				</fieldset>
+			</form><!-- #product-form -->
+		</selection>
+	</div>
 </body>
 </html>
