@@ -216,6 +216,19 @@ select
     -o-box-sizing: border-box;
     box-sizing: border-box;
 }
+select:focus, input:focus
+{
+    background-color: #fff;
+    outline: none;
+}
+::-webkit-input-placeholder
+{
+    color: #999;
+}
+:-moz-placeholder
+{
+    color: #999;
+}
 
 
 
