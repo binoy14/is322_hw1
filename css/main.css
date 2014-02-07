@@ -90,7 +90,29 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+body
+{
+    font: 100%/1.5 'Gill Sans', 'Droid Sans', 'Calibri', 'Lucida Grande', 'Trebuchet MS', 'Helvetica Neue', 'Arial', sans-serif; 
+    color: #000;
+    background: url(images/bg2.png) #fff;
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+    color: #7f7f7f;
+}
+a:hover, a:focus
+{
+    color: #000;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    outline: 0;
+}
 
 
 
