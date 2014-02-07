@@ -230,15 +230,6 @@ select:focus, input:focus
     color: #999;
 }
 
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -310,6 +301,40 @@ select:focus, input:focus
 
 .clearfix:after {
     clear: both;
+}
+
+/*******************Custom Classes*************/
+.btn
+{
+    background: #9d0000;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    line-height: 1;
+    padding: 0.7em 1em;
+    border: 1px solid #770000;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    border-radius: 0.5em;
+    -webkit-transition: -webkit-box-shadow 0.3s ease-out;
+    -moz-transition: -moz-box-shadow 0.3s ease-out;
+    -ms-transition: -ms-box-shadow 0.3s ease-out; 
+    -o-transition: -o-box-shadow 0.3s ease-out; 
+    transition:  box-shadow 0.3s ease-out;
+}
+.btn:hover, .btn:focus
+{
+    background: #710000;
+    border-color: #fff;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 /* ==========================================================================
