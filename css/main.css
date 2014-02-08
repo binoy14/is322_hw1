@@ -532,6 +532,37 @@ header[role="banner"] .nav
     display: inline-block;
     color: #9d0000;
 }
+/*** Product Images ***/
+/* .product-img */
+.product-img
+{
+    position: relative;
+    text-align: center;
+}
+/* .img-container */
+.img-container
+{
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 0.5em;
+    background: #fff;
+    border: 1px solid #d7dad3;
+    border-right: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+}
+.img-containter img
+{
+    display: block;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
