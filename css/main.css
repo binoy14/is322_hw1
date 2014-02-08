@@ -366,6 +366,34 @@ header[role="banner"] a:hover, header[role="banner"] a:focus
     background-image: -ms-radial-gradient(ellipse closest-side, rgba(255,255,255,0.1), rgba(255,255,255,0));
     background-image: -o-radial-gradient(ellipse closest-side, rgba(255,255,255,0.1), rgba(255,255,255,0));
 }
+.logo
+{
+   float: left;
+   margin: 0.35em 0 0.25em 0.7em;
+}
+.logo a, .logo img
+{
+    width: 100px;
+    height: 19px;
+}
+.nav-anchors
+{
+    float: right;
+}
+.nav-anchors li
+{
+    display: inline-block;
+}
+.nav-anchors a
+{
+    display: block;
+    padding: 0.75em 0 0.8em;
+    border-left: 1px solid #333;
+}
+.nav-anchors a.active
+{
+    color: #fff;
+}
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
