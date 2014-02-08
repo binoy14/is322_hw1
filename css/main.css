@@ -271,6 +271,35 @@ h2
 }
 
 /** Structure **/
+/* .logo */
+.logo
+{
+    margin: 0;
+    font-size: 1.6em;
+    position: relative;
+    z-index: 1;
+}
+.logo a
+{
+    display: block;
+    width: 120px;  
+    height: auto;
+    
+}
+.logo img
+{
+    width: 120px;
+    height: auto;
+}
+.nav-anchors
+{
+    display: none;
+}
+.nav
+{
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
 }
 /* ==========================================================================
    Helper classes
