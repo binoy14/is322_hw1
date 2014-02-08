@@ -304,6 +304,7 @@ select:focus, input:focus
 }
 
 /*******************Custom Classes*************/
+/* .btn */
 .btn
 {
     background: #9d0000;
@@ -338,6 +339,7 @@ select:focus, input:focus
 }
 
 /*************** Structure **************/
+/* header[role="banner"] */
 header[role="banner"] {
     position: relative;
     background: #111; 
@@ -366,6 +368,7 @@ header[role="banner"] a:hover, header[role="banner"] a:focus
     background-image: -ms-radial-gradient(ellipse closest-side, rgba(255,255,255,0.1), rgba(255,255,255,0));
     background-image: -o-radial-gradient(ellipse closest-side, rgba(255,255,255,0.1), rgba(255,255,255,0));
 }
+/* .logo */
 .logo
 {
    float: left;
@@ -376,6 +379,7 @@ header[role="banner"] a:hover, header[role="banner"] a:focus
     width: 100px;
     height: 19px;
 }
+/* .nav-anchors */
 .nav-anchors
 {
     float: right;
@@ -393,6 +397,85 @@ header[role="banner"] a:hover, header[role="banner"] a:focus
 .nav-anchors a.active
 {
     color: #fff;
+}
+/* .search */
+.search
+{
+    clear: both;
+    border-top: 1px solid #333;
+    padding: 0.625em 1em;
+    position: relative;
+}
+.search label
+{
+    display: none;
+}
+.search input[type=search]:hover, .search input[type=search]:focus
+{
+    border-color: #fff;
+    color: #fff;
+}
+.search input[type=search]
+{
+    background: url(images/icon_search.png) no-repeat 95% 50% #111;
+    color: #999;
+    border: 1px solid #333;
+    font-size: 0.8em;
+    border-right: 0.5em;
+    padding: 0.6em 1.3em 0.6em 0.9em;
+    width: 100%;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+.search input[type=submit]
+{
+    background: none;
+    padding: 0;
+    border: 0;
+    width: 2em;
+    height: 2em;
+    text-indent: -99999em;
+    position: absolute;
+    top: 0;
+    right: 1em;
+    z-index: 1;
+}
+/* .nav */
+.nav
+{
+    margin: 0 -1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+header[role="banner"] .nav
+{
+    border-top: 1px solid #333;
+    clear: left;
+}
+.nav li
+{
+    display: inline-block;
+    position: relative;
+}
+.nav li a
+{
+    display: block;
+    padding: 1em;
+    border-left: 1px solid #333;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out; 
+    transition:  all 0.3s ease-out;
+}
+.nav li:first-child a
+{
+    border-left: 0;
 }
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
