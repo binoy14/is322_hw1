@@ -142,6 +142,7 @@ h2
     font-weight: normal;
     margin: 0;
     text-rendering: optimizeLegibility;
+    text-shadow: 0 1px 0 #fff;
 }
 h3
 {
@@ -397,7 +398,6 @@ header[role="banner"] a:hover, header[role="banner"] a:focus
 }
 /* .nav-anchors */
 .nav-anchors {
-    margin: 0 auto;
     float: right;
 }
 .nav-anchors li {
@@ -967,72 +967,7 @@ header[role="banner"] .nav
     padding: 1em;
 }
 
-/************Mobile Queries**************/
-@media screen and (min-width: 28.75em) {
-.related-products li {
-        width: 33.3333333%;
-    }
-}
 
-/************Mobile Queries**************/
-
-/************Animations**************/
-@-webkit-keyframes fadein {
-    0% { opacity: 0; }
-    100% { opacity: 1;  }
-}
-@-moz-keyframes fadein {
-    0% { opacity: 0; }
-    100% { opacity: 1;  }
-}
-@-ms-keyframes fadein {
-    0% { opacity: 0; }
-    100% { opacity: 1;  }
-}
-
-/************Resources**************/
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-/************End Resources**************/
-
-/************Comment Mode**************/
-.has-comment, .has-comment a {
-    cursor: help !important;
-}
-#comment-link a{ 
-    display: block; 
-    background: #9d0000; 
-    color: #fff; 
-    padding: 1em 1.2em; 
-}
-#comment-link a:hover, #comment-link a:focus {
-    background: #c20000;
-}
-#comment-container {
-    background: #333;
-    color: #fff;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 2; 
-    text-align: left;
-    padding: 1em;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; 
-}
-#close-comments {
-    color: #fff;
-    position: absolute;
-    top: 1em;
-    right: 1em;
-    text-transform: uppercase;
-    display: none;
-}
-/************End Comment Mode**************/
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
