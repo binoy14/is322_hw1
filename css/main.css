@@ -539,6 +539,28 @@ header[role="banner"] .nav
     position: relative;
     text-align: center;
 }
+.product-img nav
+{
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+.product-img nav li
+{
+    display: inline-block;
+    margin: 0 0.2em;
+    border: 1px solid #d7dad3;
+    border-radius: 0.5em;
+}
+.product-img nav li:hover, .product-img nav li:focus
+{
+    border-color: #b0b3ad;
+}
+.product-img nav li.active
+{
+    border-color: #9d0000;
+}
 /* .img-container */
 .img-container
 {
@@ -562,6 +584,12 @@ header[role="banner"] .nav
     -ms-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
+}
+#img-list
+{
+    position: relative;
+    left: 0;
+    width: 100%;
 }
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
