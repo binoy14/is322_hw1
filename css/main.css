@@ -9,7 +9,23 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+/************Reset**************/
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section { 
+    margin: 0; 
+    padding: 0;
+    border: 0;
+} 
+ol, ul { 
+    list-style: none; 
+}
+header, footer, nav, section, article, hgroup, figure {
+    display: block; 
+}
+legend {
+    display: none;
+}
 
+/*****************************/
 html {
     color: #222;
     font-size: 1em;
@@ -380,22 +396,19 @@ header[role="banner"] a:hover, header[role="banner"] a:focus
     height: 19px;
 }
 /* .nav-anchors */
-.nav-anchors
-{
+.nav-anchors {
+    margin: 0 auto;
     float: right;
 }
-.nav-anchors li
-{
+.nav-anchors li {
     display: inline-block;
 }
-.nav-anchors a
-{
+.nav-anchors a {
     display: block;
-    padding: 0.75em 0 0.8em;
+    padding: 0.75em 0.8em;
     border-left: 1px solid #333;
 }
-.nav-anchors a.active
-{
+.nav-anchors a.active {
     color: #fff;
 }
 /* .search */
@@ -613,6 +626,13 @@ header[role="banner"] .nav
     position: relative;
     left: 0;
     width: 100%;
+}
+
+/*** Product Form ***/
+/* .product-form */
+.product-form
+{
+    margin: 0 0 0.5em;
 }
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
