@@ -106,6 +106,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@media screen and (min-width: 28.75em){
 body
 {
     font: 100%/1.5 'Gill Sans', 'Droid Sans', 'Calibri', 'Lucida Grande', 'Trebuchet MS', 'Helvetica Neue', 'Arial', sans-serif; 
@@ -246,7 +247,7 @@ select:focus, input:focus
 {
     color: #999;
 }
-
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -321,6 +322,7 @@ select:focus, input:focus
 }
 
 /*******************Custom Classes*************/
+@media screen and (min-width: 28.75em){
 /* .btn */
 .btn
 {
@@ -966,7 +968,7 @@ header[role="banner"] .nav
 {
     padding: 1em;
 }
-
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
