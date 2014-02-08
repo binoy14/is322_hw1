@@ -903,7 +903,9 @@ header[role="banner"] .nav
 {
     display: inline-block;
 }
-
+.footer li a {
+    padding-top: 1.2em;
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
