@@ -561,6 +561,29 @@ header[role="banner"] .nav
 {
     border-color: #9d0000;
 }
+.product-img nav li:last-child
+{
+    margin: 0;
+}
+.product-img nav a
+{
+    display: block;
+}
+.product-img nav a.active
+{
+    border-color: #81d8d0;
+}
+.product-img nav li
+{
+    min-width: 4em;
+    min-height: 1em;
+}
+.product-img nav img
+{
+    display: block;
+    width: 4em;
+    height: auto;
+}
 /* .img-container */
 .img-container
 {

@@ -68,12 +68,12 @@ label {
 	display: inline-block;
 	background: #fff;
 	background: rgba(255,255,255,0.5);
+	border: 1px solid #333;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 1px solid #333;
 	-webkit-border-top-left-radius: 0.5em;
 	-webkit-border-bottom-left-radius: 0.5em;
 	-moz-border-radius-topleft: 0.5em;
