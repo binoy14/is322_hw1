@@ -175,6 +175,47 @@ header[role="banner"] a:hover, header[role="banner"] a:focus {
 	width: 100%;
 	height: 19px;
 }
+.search {
+	clear: both;
+	border-top: 1px solid #333;
+	padding: 0.625em 1em;
+	position: relative;
+}
+.search label {
+	display: none;	
+}
+.search input[type=search] {
+	background: url(images/icon_search.png) no-repeat 95% 50% #111;
+	color: #999;
+	border: 1px solid #333;
+	font-size: 0.8em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	border-radius: 0.5em;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    padding: 0.6em 1.3em 0.6em 0.9em;
+	width: 100%;
+}
+.search input[type=search]:hover, .search input[type=search]:focus {
+	border-color: #fff;
+	color: #fff;
+}
+.search input[type=submit] {
+	background: none;
+	padding: 0;
+	border: 0;
+	width: 2em;
+	height: 2em;
+	text-indent: -99999em;
+	position: absolute;
+	top: 0;
+	right: 1em;
+	z-index: 1;
+}
 
 
 
