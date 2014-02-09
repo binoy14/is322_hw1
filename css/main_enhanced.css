@@ -259,6 +259,28 @@ header[role="banner"] .nav {
 	-ms-border-radius: 0.5em;
 	border-radius: 0.5em;
 }
+.product-main {
+	overflow: hidden;
+	max-width: 63em;
+	margin: 0 auto;
+	padding: 1em;
+}
+.product-overview {
+	margin-bottom: 1em;	
+}
+.price {
+	font-weight: bold;
+	display: inline-block;
+}
+.star {
+	display: inline-block;
+	margin: 0 0.5em;
+	font-size: 0.9em;
+}
+.star li {
+	display: inline-block;
+	color: #9d0000;
+}
 
 
 
