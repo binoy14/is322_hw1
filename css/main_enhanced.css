@@ -465,7 +465,14 @@ header[role="banner"] .nav {
 	margin: 0 auto;
 	padding: 0 1em 1em;
 }
-
+.product-description header 
+{
+	border-top: 1px solid #333;
+}
+.reviews header h2 
+{
+	display: inline-block;
+}
 
 
 
