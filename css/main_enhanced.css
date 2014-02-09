@@ -281,8 +281,82 @@ header[role="banner"] .nav {
 	display: inline-block;
 	color: #9d0000;
 }
-
-
+.product-img {
+	position: relative;
+	text-align: left;
+}
+.img-container {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto 0.5em;
+	background: #fff;
+	border: 1px solid #d7dad3;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	border-radius: 0.5em;
+}
+.img-container img {
+	display: block;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#img-list {
+	position: relative;
+	left: 0;
+	width: 100%;
+}
+.product-img nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 6em;
+}
+.product-img nav li {
+	display: block;
+	margin: 0.2em 0;
+	border: 1px solid #d7dad3;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	border-radius: 0.5em;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+  	-ms-transition: all 0.3s ease-out; 
+  	-o-transition: all 0.3s ease-out; 
+  	transition:  all 0.3s ease-out;
+	
+}
+.product-img nav li:hover, .product-img nav li:focus {
+	border-color: #b0b3ad;
+}
+.product-img nav li.active {
+	border-color: #9d0000;
+}
+.product-img nav li:last-child {
+	margin: 0;
+}
+.product-img nav a {
+	display: block;
+}
+.product-img nav a.active {
+	border-color: #81d8d0;
+}
+.product-img nav li {
+	min-width: 4em;
+	min-height: 1em;
+}
+.product-img nav img {
+	display: block;
+	width: auto;
+	height: auto;
+}
 
 
 
