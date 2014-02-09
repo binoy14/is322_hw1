@@ -92,3 +92,26 @@ input,textarea {
 	float: left;
 	height: 2.4em;
 }
+select:focus, input:focus{
+	background-color: #fff;
+	outline: none;
+}
+::-webkit-input-placeholder
+{
+	color: #999;
+}
+:-moz-placeholder
+{
+	color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
