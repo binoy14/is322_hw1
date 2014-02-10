@@ -370,8 +370,7 @@ header[role="banner"] .nav {
 .product-img nav 
 {
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 2.3em;
 	width: 6em;
 	overflow: hidden;
 	display: inline-block;
