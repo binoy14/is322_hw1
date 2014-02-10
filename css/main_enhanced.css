@@ -322,13 +322,13 @@ header[role="banner"] .nav {
 .product-img 
 {
 	float: left;
-	width: 50%;
+	width: 67%;
 	height: auto;
 	margin-top: -4.8em;
 }
 .img-container 
 {
-	margin-left: 7em;
+	
 	position: relative;
 	overflow: hidden;
 	margin: 0 auto 0.5em;
@@ -339,6 +339,10 @@ header[role="banner"] .nav {
 	-o-border-radius: 0.5em;
 	-ms-border-radius: 0.5em;
 	border-radius: 0.5em;
+}
+.img-container
+{
+	margin-left: 7em;
 }
 .img-container img 
 {
