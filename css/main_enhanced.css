@@ -731,4 +731,30 @@ header[role="banner"] .nav {
 {
 	padding: 1em;
 }
-
+#comment-link
+{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 4;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	line-height: 1;
+}
+#comment-link a
+{
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	width: 182px;
+	height: 100px;
+	margin-top: 40px;
+	padding: 5px;
+	text-align: center;
+	display: block;
+	background: #9d0000;
+	color: #fff;
+	padding: 1em 1.2em;
+}
