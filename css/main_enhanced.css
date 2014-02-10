@@ -583,7 +583,7 @@ header[role="banner"] .nav {
 .reviews-list > li 
 {
 	overflow: hidden;
-	padding: 2em 0;
+	padding: 2em 7em;
 	border-top: 1px solid rgba(255,255,255,0.5);
 	border-bottom: 1px solid #b0b3ad;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -609,6 +609,9 @@ header[role="banner"] .nav {
 .review-meta 
 {
 	font-size: 1em;
+	float: left;
+	width: 30%;
+	padding-top: 0.8em;
 }
 .review-content 
 {
