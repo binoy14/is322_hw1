@@ -381,7 +381,7 @@ header[role="banner"] .nav {
 .product-img nav li 
 {
 	display: inline-block;
-	margin: 0 0.2em;
+	margin: 0 0 1em;
 	border: 1px solid #d7dad3;
 	-moz-border-radius: 0.5em;
 	-webkit-border-radius: 0.5em;
